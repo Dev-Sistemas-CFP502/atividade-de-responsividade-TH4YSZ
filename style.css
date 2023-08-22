@@ -50,23 +50,24 @@ border-color: #ffbb00;
 }
 
 .conteudo {
-display: grid;
-max-width: 62.5rem;
-background: #000000;
-padding: 2rem;
-gap: 2rem;
-margin: 1rem auto;
-align-items: center;
-border-radius: 5px;
+  display: flex;
+  max-width: 62.5rem;
+  background: #000000;
+  padding: 2rem;
+  gap: 2rem;
+  margin: 1rem auto;
+  align-items: center;
+  border-radius: 5px;
 }
 
 .introducao-img{
-display: inline-block;
-gap: 1rem;
-border-radius: 10px;
-align-items: center;
-background-color: #111111;
-padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #111111;
+  padding: 1rem;
+  overflow-x: scroll;
 }
 
 .carros{
@@ -77,6 +78,10 @@ display: inline-block;
   height: 300px;
   width: 200px;
   display: inline;
+    height: 300px;
+    width: 200px;
+    display: inline;
+
 }
 
 .introducao h2 {
